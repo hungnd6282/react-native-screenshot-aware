@@ -33,7 +33,7 @@
     "lint:fix": "npx biome lint --write ./src && npx biome format --write ./src && npx biome check --write ./src && yarn lint:fix:example",
     "lint:fix:example": "npx biome lint --write ./example/src && npx biome format --write ./example/src && npx biome check --write ./example/src",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
-    "prepare": "bob build",
+    "prepare": "bob build"
   },
   "keywords": [
     "react-native",
