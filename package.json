@@ -34,7 +34,6 @@
     "lint:fix:example": "npx biome lint --write ./example/src && npx biome format --write ./example/src && npx biome check --write ./example/src",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
-    "release": "semantic-release"
   },
   "keywords": [
     "react-native",
@@ -62,8 +61,6 @@
     "@biomejs/biome": "1.9.4",
     "@commitlint/cli": "19.6.0",
     "@commitlint/config-conventional": "19.6.0",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
     "@testing-library/react-native": "12.8.1",
     "@types/jest": "29.5.14",
     "@types/react": "18.3.12",
@@ -76,7 +73,6 @@
     "react-native": "0.76.3",
     "react-native-builder-bob": "0.33.1",
     "react-test-renderer": "18.3.1",
-    "semantic-release": "24.2.0",
     "turbo": "2.3.3",
     "typescript": "5.7.2"
   },
